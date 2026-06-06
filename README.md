@@ -33,6 +33,19 @@ The app is deployed on Streamlit Cloud and has three pages:
 
 https://earlywarning.streamlit.app
 
+
+<img width="1917" height="859" alt="Screenshot 2026-06-06 at 1 28 21 PM" src="https://github.com/user-attachments/assets/fd9313d8-56df-4f0d-ae68-3946c715f1b3" />
+
+<img width="1918" height="877" alt="Screenshot 2026-06-06 at 1 29 10 PM" src="https://github.com/user-attachments/assets/8eb9cb30-64cc-43b5-aab7-82e6a6d643a7" />
+
+<img width="1920" height="904" alt="Screenshot 2026-06-06 at 1 29 46 PM" src="https://github.com/user-attachments/assets/e72da0de-0026-4eab-93c8-d95518e83e4a" />
+
+<img width="1918" height="955" alt="Screenshot 2026-06-06 at 1 30 14 PM" src="https://github.com/user-attachments/assets/8e50260f-0e06-49e9-bbcb-65f0ef1f8227" />
+
+
+
+
+
 ---
 
 ## Dataset
