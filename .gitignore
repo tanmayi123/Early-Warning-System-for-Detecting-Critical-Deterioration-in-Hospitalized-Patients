@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+.DS_Store
+*.pyc
+.env
+models/best_model.pkl
+models/feature_names.pkl
+model/scaler.pkl
+.env.local

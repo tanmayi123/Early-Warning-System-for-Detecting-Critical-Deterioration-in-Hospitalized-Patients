@@ -1,0 +1,80 @@
+{
+  "best_model": "XGBoost",
+  "results": {
+    "Logistic Regression": {
+      "accuracy": 0.6043,
+      "f1_macro": 0.4571,
+      "qwk": 0.746,
+      "custom": 0.6016
+    },
+    "Random Forest": {
+      "accuracy": 0.7599,
+      "f1_macro": 0.4227,
+      "qwk": 0.8748,
+      "custom": 0.6487
+    },
+    "XGBoost": {
+      "accuracy": 0.7327,
+      "f1_macro": 0.5202,
+      "qwk": 0.8704,
+      "custom": 0.6953
+    },
+    "MLP": {
+      "accuracy": 0.3509,
+      "f1_macro": 0.2673,
+      "qwk": 0.5213,
+      "custom": 0.3943
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.7199,
+      "f1_macro": 0.5285,
+      "qwk": 0.8595,
+      "custom": 0.694
+    },
+    "Naive Bayes": {
+      "accuracy": 0.5606,
+      "f1_macro": 0.4148,
+      "qwk": 0.6898,
+      "custom": 0.5523
+    }
+  },
+  "feature_names": [
+    "slos",
+    "d.time",
+    "scoma",
+    "charges",
+    "totcst",
+    "totmcst",
+    "avtisst",
+    "sps",
+    "aps",
+    "surv2m",
+    "surv6m",
+    "hday",
+    "prg2m",
+    "prg6m",
+    "hrt",
+    "alb",
+    "adlp",
+    "adls",
+    "adlsc",
+    "dzgroup_CHF",
+    "dzgroup_COPD",
+    "dzgroup_Cirrhosis",
+    "dzgroup_Colon Cancer",
+    "dzgroup_Coma",
+    "dzgroup_Lung Cancer",
+    "dzgroup_MOSF w/Malig",
+    "dnr_dnr before sadm",
+    "dnr_no dnr"
+  ],
+  "xgb_mode": true,
+  "needs_scaling": false,
+  "label_map": {
+    "1": "No Deterioration (M2 & SIP present)",
+    "2": "Mild Deterioration (ADL \u2265 4)",
+    "3": "Moderate Deterioration (SIP \u2265 30)",
+    "4": "Severe Deterioration (Coma/Intubated)",
+    "5": "Critical \u2014 < 2 Month Follow-up"
+  }
+}
