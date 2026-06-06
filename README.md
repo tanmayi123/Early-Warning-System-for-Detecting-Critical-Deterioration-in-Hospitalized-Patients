@@ -20,7 +20,6 @@ The target variable is `sfdm2`, a measure of functional deterioration mapped to 
 | 4 | Severe Deterioration | Coma or intubation |
 | 5 | Critical | Less than 2 months follow-up |
 
-The goal was not just to build a model but to build something deployable, interpretable, and useful as a portfolio piece that demonstrates end-to-end ML thinking.
 
 ---
 
@@ -204,8 +203,6 @@ This will take around 10 to 15 minutes. When finished you will see:
 ```bash
 streamlit run app.py
 ```
-
-The app will open at http://localhost:8501
 
 ---
 
