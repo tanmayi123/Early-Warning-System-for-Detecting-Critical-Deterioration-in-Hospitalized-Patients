@@ -162,7 +162,7 @@ So I used:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/early-warning-system.git
+git clone https://github.com/tanmayi123/early-warning-system.git
 cd early-warning-system
 ```
 
